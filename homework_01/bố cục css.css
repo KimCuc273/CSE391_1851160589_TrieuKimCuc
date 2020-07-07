@@ -1,0 +1,100 @@
+.header{
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: ; */
+    margin: 0px auto;
+    height: 120px;
+}
+.logo{
+    width: 66.6666%;
+    /* background-color: coral; */
+    /* float: left; */
+    padding-left: 15px;
+    display: flex;
+    align-items: center; /*căn chỉnh theo phương dọc*/
+}
+.search{
+    /* clear: right; */
+    width: 33.3333%;
+    /* float: right; */ 
+    /* background-color: darkkhaki; */
+    display: flex;
+    flex-direction: column; /*phương ngang*/
+    justify-content: center; /*căn chỉnh nội dung ở giữa theo phương ngang*/
+    padding-right: 30px;
+}
+/* clear:both --> tách riêng, k bị tác động*/
+.language{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.search-form{
+    display: flex;
+    justify-content: flex-end;
+}
+.main{
+    height: 400px;
+    background-color: darkturquoise;
+    padding: 40px;
+}
+.navbar{
+    height: 60px;
+    background-color:darkblue;
+    /* position: fixed;  */
+    position: sticky; 
+     top: 0px;
+    left: 0px; 
+}
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100%;
+}
+.navbar ul li{
+    width: 10%;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    
+
+}
+.slider{
+    height: 340px;
+}
+.slider img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+position: fixed;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    position: sticky; 
+    left: 0px; 
+	/* transition: top 0.3s; */
+	/* text-align: center; */
+    
+    
+    #quick-nav ul {
+        list-style-type: none;
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 100%;
+        text-align: center;
+    }
+    #quick-nav ul li{
+        width: 10%; 
+    }
+
+    

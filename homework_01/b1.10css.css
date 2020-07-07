@@ -1,4 +1,8 @@
 table{
     border: 1px solid #ffbbbb;
     width: 600px;
+    
+}
+table, tr, th{
+    border: 1px solid #ffbbbb;
 }

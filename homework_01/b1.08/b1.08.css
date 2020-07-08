@@ -1,0 +1,35 @@
+#thucdon ul {
+    list-style: disc;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+/*Style menu.html*/
+*{
+    padding: 0px; 
+    margin: 0px;
+}
+
+#menu{
+    width: 240px; 
+    height: 310px;
+    background: #0066cc; 
+    text-align: center;
+    margin-left: 8px;
+}
+#menu ul{
+    list-style: none; 
+}
+#menu ul li{
+    border-bottom: 1px solid #fff;
+}
+#menu ul li a{
+    text-decoration: none; 
+    padding: 10px 0px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+}
+#menu ul li a:hover{
+    background: #ff9933;
+}

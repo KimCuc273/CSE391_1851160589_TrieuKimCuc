@@ -1,0 +1,25 @@
+#bai7 h1 {
+    color: #13af13;
+    text-align: center;
+}
+img{
+    float: left;
+    max-width: 100%;
+}
+.tb-bai7 {
+    border-collapse: collapse;
+    background-color: #b2ffb2;  
+    color: #085608;  
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 10px;
+
+}
+.tb-bai7, .tb-bai7 td, .tb-bai7 th {
+    border: 1px solid blue;
+    padding: 10px;
+}
+.red{
+    color: red;
+    text-align: center;
+}

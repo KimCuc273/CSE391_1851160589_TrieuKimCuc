@@ -4,4 +4,13 @@ $(document).ready(function(){
         }, function(){
             $(".square").css("background-color","burlywood");
     });
+    
+    //có thể dùng:
+    // $(".circle").mouseenter(function(){
+    //     $(".square").css("background-color", "white");
+    //     }),  
+    // $(".circle").mouseleave(function(){
+    //         $(".square").css("background-color", "burlywood");
+    //     });
+    
 });

@@ -1,0 +1,19 @@
+img{
+    max-width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+#email-submit{
+    display: flex;
+    margin: 20px;
+}
+.card{
+    margin-top: 50px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    box-sizing: border-box;
+}
+.row{
+    margin-left: 20px;
+    margin-right: 20px;
+}

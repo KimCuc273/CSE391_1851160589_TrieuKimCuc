@@ -2,3 +2,16 @@
     margin-top: 20px ;
     margin-bottom: 20px;
 }
+.btn1{
+    display: block;
+}
+.fa-trash{
+    display: flex;
+    float: right;
+    /* margin-right: 30px; */
+    
+}
+button{
+    float: right;
+    
+}

@@ -5,21 +5,11 @@
 img{
     float: left;
     max-width: 100%;
+    margin-right: 20px;
 }
-/* .tb-bai7 {
-    border-collapse: collapse;
-    background-color: #b2ffb2;  
-    color: #085608;  
-    margin: 0 auto;
-    width: 70%;
-    margin-top: 10px;
-
-}
-.tb-bai7, .tb-bai7 td, .tb-bai7 th {
-    border: 1px solid blue;
-    padding: 10px;
-}
-.red{
-    color: red;
+h2{
     text-align: center;
-} */
+    color: rgb(228, 79, 128);
+    font-size: 36px;
+}
+

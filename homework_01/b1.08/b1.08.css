@@ -1,11 +1,33 @@
-#thucdon ul {
+/* #thucdon ul {
     list-style: disc;
     margin-left: 40px;
     margin-top: 10px;
-}
+} */
 
-/*Style menu.html*/
-*{
+h1{
+    text-align: center;
+    font-size: 36px;
+    color: orangered;
+}
+table{
+    border: 1px solid red;
+    width: 300px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+table, th, td{
+    border: 1px solid black;
+
+}
+th{
+    background-color: #CC6600;
+    color: white;
+}
+.mon{
+    text-align: left;
+}
+/* *{
     padding: 0px; 
     margin: 0px;
 }
@@ -32,4 +54,4 @@
 }
 #menu ul li a:hover{
     background: #ff9933;
-}
+} */

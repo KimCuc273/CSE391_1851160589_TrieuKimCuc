@@ -8,36 +8,66 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        ul{
+		list-style: none;
+	}
+	/* .menu a{
+		text-decoration: none;
+		color: black;
+	}
+	 .menu ul{
+		position: absolute;
+		top: 42px;
+		left: 0;
+	} 
+	 .menu li{
+		float: left;
+		/* width: 150px;  */
+		line-height: 1.5em;
+		position: relative;
+		text-align: center;
+		background-color:orchid;
+		padding: 10px;
+
+	} 
+	 .menu li:hover{
+		background: blue;
+		cursor: pointer;
+	}  */
+	
+    </style>
   </head>
   <body>
-      <div class="btn-group" role="group" aria-label="">
-          <button type="button" class="btn btn-secondary"></button>
-          <button type="button" class="btn btn-secondary"></button>
-          <div class="btn-group" role="group">
-              <button id="dropdownId" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                      aria-expanded="false">
-                  
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownId">
-                  <a class="dropdown-item" href="#"></a>
-                  <a class="dropdown-item" href="#"></a>
-              </div>
-          </div>
+    <div class="navbar">
+        <ul class="menu">
+          <li><a href="">TRANG CHỦ</a></li>
+          <li class="has-sub"><a href="">NGHIÊN CỨU KHOA HỌC</a>
+            <ul>
+              <li><a href="#">Logo khoa CNTT</a></li>
+                  <li><a href="#">Lời chào mừng</a></li>
+                  <li><a href="#">Tổ chức</a></li>
+                  <li><a href="#">Hợp tác liên kết</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a href="">NGHIÊN CỨU KHOA HỌC</a></li>
+
+        </ul>
       </div>
-    <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
- 
-        <input type="submit" value="Submit">
-      </form>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script>
+        $(document).ready(function(){
+    $(".menu li").hover(function(){
+        $(this).find("ul:first").slideDown(500);
+    },function(){
+        $(this).find("ul:first").hide(300);
+
+    });
+});
+    </script> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/ef846d6c04.js" crossorigin="anonymous"></script>
   </body>
 </html>

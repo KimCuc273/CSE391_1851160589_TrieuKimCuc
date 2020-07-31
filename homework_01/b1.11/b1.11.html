@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bài 11</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Tạo form và các điều khiển trên form</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+    <link rel="stylesheet" href="b1.11.css">
 </head>
+
 <body>
     <form action="" method="post">
         <h1>Đăng nhập</h1>
@@ -13,23 +16,26 @@
             <tr>
                 <td>Mã người dùng:</td>
                 <td>
-                    <input type="text" id="MaND">
+                    <input type="text" id="myInput">
                 </td>
             </tr>
             <tr>
                 <td>Mật khẩu:</td>
                 <td>
-                    <input type="password" name="" id="pass">
+                    <input type="password" name="" id="userPassword">
                 </td>
             </tr>
             <tr>
-				<td colspan="2" style="text-align: center;"><input type="submit" name="submit" value="Đồng ý"></td>
-			</tr>
+                <td colspan="2">
+                    <button type="button" id="button1">Đồng ý</button>
+                </td>
+            </tr>
             <tr>
-                <td colspan="2" id="Ten" style="color: blue; text-align: center;"></td>
+                <td colspan="2" id="maN" style="color: blue; text-align: center;"></td>
             </tr>
         </table>
     </form>
-<script src="javascript.js"></script>
+
+    <script src="b1.11.js"></script>
 </body>
 </html>

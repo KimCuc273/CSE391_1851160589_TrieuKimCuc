@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo frame</title>
+    
+    <link rel="stylesheet" href="b1.15.css">
+    <script>
+        $(document).ready(function () {
+            $("ul li").click(function () { 
+                var index = $(this).index();
+                $("iframe").attr("src", "./b1.01."+ (index +1 )+".html");
+            });
+        });
+        
+    </script>
+
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="2" style="background-color: #003399; width: 100; color: white; text-align: center;"><h1>Bài tập NGÔN NGỮ HTML</h1></td>
+        </tr>
+        <tr>
+            <td style="width: 30%;">
+                <ul style="list-style-type: square;">
+                    <li><a href="../b1.01.html">Bài 01 - Các tag cơ bản</a></li>
+                    <li><a href="../b1.02.html">Bài 02 - Các tag cơ bản, có định dạng</a></li>
+                    <li><a href="../b1.03.html">Bài 03 - Định dạng trang web</a></li>
+                    <li><a href="../b1.04.html">Bài 04 - Định dạng trang web(tt)</a></li>
+                    <li><a href="../b1.05.html">Bài 05 - Định dạng văn bản</a></li>
+                    <li><a href="../b1.06.html">Bài 06 - Định dạng văn bản(tt)</a></li>
+                    <li><a href="../b1.07/b1.07.html">Bài 07 - Hình ảnh, liên kết, danh sách và ký tự đặc biệt</a></li>
+                    <li><a href="../b1.08/b1.08.html">Bài 08 - Tạo bảng</a></li>
+                    <li><a href="../b1.09/b1.09.html">Bài 09 - Tạo bảng, có trộn dòng và cột</a></li>
+                    <li><a href="../b1.10/b1.10.html">Bài 10 - Tạo bảng, có trộn dòng và cột(tt)</a></li>
+                    <li><a href="../b1.11/b1.11.html">Bài 11 - Tạo form và các điều khiển</a></li>
+                    <li><a href="../b1.12/b1.12.html">Bài 12 - Tạo form và các điều khiển(tt)</a></li>
+                    <li><a href="../b1.13/b1.13.html">Bài 13 - Tạo form và các điều khiển(tt)</a></li>
+                </ul>
+
+                
+            </td>
+            <td style="width: 70%; ">
+                <iframe id="iframe" width="100%" height="400px" src="../b1.01.html" frameborder="0"></iframe>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

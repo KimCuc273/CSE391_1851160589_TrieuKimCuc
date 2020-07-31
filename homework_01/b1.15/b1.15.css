@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+table {
+    margin-left: 15%;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+ table,tr, th,td{
+     border: 4px solid rgb(201, 197, 197);
+    margin: 0px;
+    padding: 0px;
+    font: tahoma;
+    font-size: 12px;
+}
+
+li {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
